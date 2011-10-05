@@ -1,0 +1,6 @@
+This is the files from my creating an application security lab tutorial:
+http://www.justanotherhacker.com/articles/creating-a-web-application-security-lab-part-1.html
+
+INSTALLATION
+This is aimed at installation in a debian based distro.
+as root run the mklab.sh script
