@@ -1,0 +1,9 @@
+<VirtualHost *>
+        ServerName vulcano.lair
+        Include /var/www/appseclab/etc/common.conf
+        php_admin_flag register_globals off
+        php_admin_flag allow_url_fopen off
+        php_admin_flag allow_url_include off
+        php_flag magic_quotes_gpc on
+</VirtualHost>
+

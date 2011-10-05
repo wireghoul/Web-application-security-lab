@@ -1,0 +1,9 @@
+<VirtualHost *>
+        ServerName moon.lair
+        Include /var/www/appseclab/etc/common.conf
+        php_admin_flag register_globals on
+        php_admin_flag allow_url_fopen on
+        php_admin_flag allow_url_include on
+        php_flag magic_quotes_gpc off
+</VirtualHost>
+
